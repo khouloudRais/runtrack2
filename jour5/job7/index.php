@@ -30,7 +30,7 @@ function transformPlateforme($str) {
     return preg_replace('/me\b/', '_', $str);
 }
 
-// Résultat après transformation
+// Initialiser le texte transformé
 $transformedText = "";
 
 // Appliquer la transformation en fonction du choix
@@ -48,7 +48,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!-- Formulaire HTML -->
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
