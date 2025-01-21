@@ -1,0 +1,20 @@
+body {
+    background-color: #e1acb8;
+    font-family: 'Tahoma', sans-serif;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+button {
+    background-color: #af4c66;
+    color: white;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
